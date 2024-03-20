@@ -49,7 +49,7 @@ def scrapeTweets(twitterUsersList, Tag, timeInterval):
     Returns:
         None
     """
-    # empty array
+    # empty array to store tweets data
     tweets_data = []
     # Calculate the datetime to start searching from
     timeSubtract = timedelta(days=timeInterval[0], hours=timeInterval[1], minutes=timeInterval[2])
@@ -59,7 +59,6 @@ def scrapeTweets(twitterUsersList, Tag, timeInterval):
     # Counter for the number of tweets mentioning the tag
     counterOfQualifiedTweets = 0
     
-
     # Loop through each Twitter user in the list
     for twitterUser in twitterUsersList:
         options = {
