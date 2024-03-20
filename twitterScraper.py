@@ -131,8 +131,8 @@ if __name__ == '__main__':
 
     
     # using the function with default values
-    xScraper(twitterUsers, cashTag , timeInterval)
+    # xScraper(twitterUsers, cashTag , timeInterval)
     
     # without default params
-    # xScraper()
+    xScraper()
 
